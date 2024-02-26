@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <h1>todos</h1>
+    </header>
+    <main class="main">
+        <div id="container">
+        <div id="mark">
+            <label for="markall" id="markall">🔽</label>
+        </div>
+            <input type="text" id="todo" placeholder="What needs to be done?">
+        </div>
+        <div id="tododiv">
+            <ul id="todolist"></ul>
+        </div>
+        <div id="todomenu">
+            <p id="items"></p>
+            <ul>
+                <li id="viewall">All</li>
+                <li id="viewactive">Active</li>
+                <li id="viewcompleted">Completed</li>
+            </ul>
+            <p id="allcompleted">Clear Completed</p>
+        </div>
+    </main>
+    <footer class="footer">
+        <ul>
+            <li>Double-click to edit a todo</li>
+            <li>Created by</li>
+            <li>Part of</li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
