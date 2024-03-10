@@ -31,6 +31,7 @@ body {
 
 .main {
     width: 500px;
+    min-width: 375px;
     margin-left: auto;
     margin-right: auto;
     border-style: solid;
@@ -103,7 +104,7 @@ body {
     margin-left: 10px
 }
 
-#todolist li .display .edit {
+#todolist li .display .labeledit {
     border-style: none;
     margin-top:auto;
     margin-bottom: auto;
@@ -148,7 +149,8 @@ body {
     margin: 5px;
 }
 
-#todomenu li:hover {
+#todomenu li:hover,
+#todomenu .viewlist.selected {
     border-style: solid;
     border-color: rgb(184, 63, 69);
     border-width: 1px;
@@ -185,4 +187,10 @@ body {
     padding: 2px;
     font-family: sans-serif;
     font-size: 11px;
+}
+
+@media (max-width: 500px) {
+    .main{
+        width: 100%;
+    }
 }
