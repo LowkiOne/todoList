@@ -193,4 +193,8 @@ body {
     .main{
         width: 100%;
     }
+
+        #todomenu ul {
+        margin-left: 50px;
+    }
 }
